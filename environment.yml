@@ -1,0 +1,37 @@
+name: medical-insurance-costs-dataset-Analysis-env
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.9
+  - pip
+  # Core scientific python
+  - pandas
+  - numpy
+  - pyqt
+  - tqdm
+  
+  # Plotting
+  - matplotlib
+  - plotly
+  - seaborn
+
+  # Natural language processing
+  - nltk
+  - textblob
+
+  # Jupyter Environment
+  - papermill
+  - autopep8
+  - jupyter
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipython
+  - jupyter_contrib_nbextensions
+  - nbclean
+  - nbresuse
+  
+  # Autograding
+  - matplotcheck>=0.1.3
+  - nbgrader
